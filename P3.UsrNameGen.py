@@ -1,0 +1,5 @@
+first_name=input("Please Enter Your First Name:")
+birth_year=int(input("Please Enter Your Birth Year:"))
+user_name=first_name+str(birth_year)
+user_name=user_name.replace(" ","")
+print("Your New User Name Is:", user_name)
